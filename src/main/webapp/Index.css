@@ -1,0 +1,46 @@
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-family: 'Lobster', cursive;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    display: inline-block;
+    width: 220px;
+    padding: 15px 0;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5722;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background-color: #E64A19;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+a:visited {
+    color: #fff;
+}
